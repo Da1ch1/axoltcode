@@ -1,0 +1,58 @@
+.logo-color {
+    height: 110px; /* Tamaño grande para la imagen */
+    width: auto; /* Mantén la proporción */
+    margin-top: 8px; /* Ajuste vertical si es necesario */
+    margin-left: -20px;
+  }
+  
+  .menu-link {
+    position: relative; /* Necesario para colocar el ::after */
+        text-decoration: none; /* Elimina subrayado predeterminado */
+        color: #bad9fc80; /* Gris (Tailwind text-gray-300) */
+        font-size: 1rem; /* Text-m */
+        font-weight: 500; /* Medium */
+        padding: 0.5rem 0.75rem; /* px-3 py-2 */
+        transition: color 0.3s; /* Transición para el color */
+        text-transform: uppercase;
+  }
+    
+      .menu-link:hover {
+        color: #ffffff; /* Cambia a blanco al hacer hover */
+      }
+    
+      .menu-link::after {
+        content: ""; /* Pseudo-elemento vacío */
+        position: absolute; /* Relativo al enlace */
+        left: 0;
+        bottom: 0; /* Línea en la parte inferior */
+        width: 0%; /* Por defecto, no visible */
+        height: 3px; /* Grosor de la línea */
+        background-color: #3b82f6; /* Azul (Tailwind blue-500) */
+        transition: width 0.3s ease-in-out; /* Animación para extender la línea */
+      }
+    
+      .menu-link:hover::after {
+        width: 100%; /* La línea se extiende completamente */
+      }
+  
+      .hamburger-nav span {
+    transition: all 0.25s ease-in-out;
+    border-radius: 9px;  
+    
+    height: 3px;
+  }
+  
+  .logo-pie {
+    height: 70px; /* Tamaño grande para la imagen */
+    width: auto; /* Mantén la proporción */
+    margin-left: 10px;
+  }
+    /* Estilos para pantallas móviles */
+  @media (max-width: 768px) {
+    .logo-color {
+      margin-top: 3px;
+      margin-left: 125px; /* Centrado horizontal */
+      height: 70px; /* Opcional: ajusta el tamaño si es necesario */
+    }
+  }
+  

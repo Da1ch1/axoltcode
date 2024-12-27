@@ -1,0 +1,46 @@
+@keyframes fadeRight {
+    0% {
+      opacity: 0;
+      transform: translateX(-35px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @media (min-width: 1024px) { /* Equivalente a la clase lg de Tailwind */
+    .fade-right {
+      margin-left: 0.65rem; /* Equivalente a ml-3 en Tailwind */
+    }
+  }
+  .fade-right {
+    animation: fadeRight 0.5s ease-out forwards;
+    
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  /* seccion de tecnologias*/
+.scrolling-container {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer */
+  }
+  
+  .scrolling-container::-webkit-scrollbar {
+    display: none; /* Safari y Chrome */
+  }
+  
+  .topic-card {
+    transition: opacity 0.3s ease;
+  }
+  
+  .topic-card.hidden {
+    display: none;
+  }
+  .filter-item.active {
+    font-weight: bold;
+    color: #f9f9f9; /* Cambia el color según tu diseño */
+    
+  }

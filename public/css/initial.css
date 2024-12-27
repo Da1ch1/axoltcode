@@ -1,0 +1,113 @@
+/* seccion de idiomas de programgramacion */
+.languages span {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .languages span:hover {
+    text-decoration: underline;
+  }
+  
+  #typewriter span::after {
+    display: inline-block;
+    animation: blink 1s step-end infinite;
+    opacity: 0;
+  }
+  
+  #typewriter span[data-text]::after {
+    opacity: 1;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+.code-content{
+  height: 250px;
+}
+  @font-face {
+    font-family: 'Saint Self';
+    src: url('path-to-saint-self-font.woff2') format('woff2');
+}
+.darkened-image {
+display: block; /* Opcional, para eliminar espacios extra */
+width: 100%;
+height: auto;
+opacity: 0.70; /* Cambia este valor entre 0.0 (transparente) y 1.0 (opaco) */
+}
+
+
+/* seccion de imagen de fondo cuadricular */
+@media (min-width: 1200px) {
+  .xl\:inline-block {
+      display: inline-block;
+  }
+}
+.mix-blend-luminosity {
+  mix-blend-mode: luminosity;
+}
+.hidden {
+  display: none;
+}
+.absolute {
+  position: absolute;
+}
+.fondo {
+  margin-top: 25px;
+  max-width: 100%;
+  display: initial;
+}
+
+/* grid de cards*/
+p {
+  color: rgb(186, 217, 252);
+}
+
+/* Estado inicial para los elementos */
+.observed {
+opacity: 0;
+transform: translateX(-60px); /* Desplaza el elemento hacia la izquierda inicialmente */
+transition: opacity 0.9s ease, transform 0.9s ease; /* Transición suave para las propiedades */
+}
+
+/* Animación para aparecer (fade hacia la derecha) */
+.animate-slide-in {
+opacity: 1;
+transform: translateX(0); /* Regresa a su posición original */
+}
+
+/* Animación para desaparecer */
+.animate-slide-out {
+opacity: 0;
+transform: translateX(20px); /* Desplaza el elemento hacia la derecha al desaparecer */
+} 
+
+
+.panel:not(.has-custom-bg):not(.featured-series-card) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 36 50 / var(--tw-bg-opacity));
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-240px * 4)); /* Ajusta 4 al número de paneles visibles en un bucle */
+  }
+}
+
+
+
+.hide-scrollbar .space-y-4 {
+ 
+  animation: scroll 28s linear forwards; /* Animación de scroll para cada elemento */
+}
+
+.hide-scrollbar:hover .space-y-4 {
+  animation-play-state: paused; /* Pausa la animación de todos los hijos cuando el contenedor es hover */
+}
+
+
