@@ -12,6 +12,7 @@ use App\Http\Controllers\TestimonialController;
 Route::get('/', [PageController::class, 'index'])->name('inicio');
 Route::get('/Services', [PageController::class, 'servicios'])->name('inicial');
 Route::get('/Services/movil', [PageController::class, 'movil'])->name('movil');
+Route::get('/Services/web', [PageController::class, 'dweb'])->name('dweb');
 Route::get('/Projects', [PageController::class, 'proyectos'])->name('projects');
 Route::get('/Us', [PageController::class, 'nosotros'])->name('us');
 

@@ -102,7 +102,7 @@ transform: translateX(20px); /* Desplaza el elemento hacia la derecha al desapar
             </a>
             </div>
             <div class="observed relative pl-16  rounded-lg  ring-1 ring-white/[0.03] transition duration-300  dark:hover:ring-zinc-700  ">
-              <a href="">
+              <a href="{{route ('dweb')}}">
               <dt class="text-base/7 font-semibold text-white mt-3">
                 <div class="absolute left-3 top-3 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
                   <svg class="size-10 shrink-0 transform-cpu rounded-lg shadow-md shadow-sky-500/[.12]" viewBox="0 0 40 40" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -184,7 +184,7 @@ transform: translateX(20px); /* Desplaza el elemento hacia la derecha al desapar
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
         <div class="max-w-xl lg:max-w-lg">
-
+          <x-part-cod />
         </div>
         <dl class="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
           <div class="flex flex-col items-start">
@@ -246,3 +246,122 @@ transform: translateX(20px); /* Desplaza el elemento hacia la derecha al desapar
 });
 
   </script>
+<style>
+  
+.-translate-x-1\/2 {
+    --tw-translate-x: -50%
+}
+
+.-translate-x-1\/2,.-translate-x-1\/3 {
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.-translate-x-1\/3 {
+    --tw-translate-x: -33.333333%
+}
+
+.-translate-x-6 {
+    --tw-translate-x: -1.5rem
+}
+
+.-translate-x-6,.-translate-y-1\/2 {
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.-translate-y-1\/2 {
+    --tw-translate-y: -50%
+}
+
+.translate-x-6 {
+    --tw-translate-x: 1.5rem
+}
+
+.rotate-180,.translate-x-6 {
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.rotate-180 {
+    --tw-rotate: 180deg
+}
+
+.transform {
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.animate-fade-in {
+    animation: fade-in .5s linear forwards
+}
+
+@keyframes marquee {
+    to {
+        transform: translateY(-50%)
+    }
+}
+
+.animate-marquee {
+    animation: marquee var(--marquee-duration) linear infinite
+}
+
+@keyframes spin-reverse {
+    to {
+        transform: rotate(-1turn)
+    }
+}
+
+.animate-spin-reverse-slower {
+    animation: spin-reverse 6s linear infinite
+}
+
+.animate-spin-slow {
+    animation: spin 4s linear infinite
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.animate-spin-slower {
+    animation: spin 6s linear infinite
+}
+
+.inset-0 {
+    inset: 0;
+}
+
+.-inset-x-1 {
+    left: -.25rem;
+    right: -.25rem
+}
+
+.-inset-x-1\.5 {
+    left: -.375rem;
+    right: -.375rem
+}
+
+.-inset-y-3 {
+    top: -.75rem;
+    bottom: -.75rem
+}
+
+.inset-x-0 {
+    left: 0;
+    right: 0
+}
+
+.inset-y-\[calc\(1\/729\*100\%\)\] {
+    top: calc(1 / 729 * 100%);
+    bottom: calc(1 / 729 * 100%)
+}
+</style>

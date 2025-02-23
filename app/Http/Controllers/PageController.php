@@ -57,6 +57,14 @@ class PageController extends Controller
     public function movil()
     {
         $user = Auth::user();
+
         return view('servicios.movil.includ', compact('user'));
+    }
+
+    public function dweb()
+    {
+        $user = Auth::user();
+
+        return view('servicios.dweb.include', compact('user'));
     }
 }
