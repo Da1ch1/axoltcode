@@ -105,36 +105,36 @@
                 <div class="sm:pt-2 md:pr-6 lg:relative lg:ml-auto lg:w-[19.5rem] lg:flex-none lg:pr-0 lg:pl-8">
                     <div class="flex items-center gap-2">
                         <h2 class="text-base text-white font-semibold ">
-                            <a href="https://tailwindui.com/templates/catalyst">
+                            <a href="#">
                                 <span class="absolute  inset-0 lg:left-8">
-                                </span>Lorem App
+                                </span>Landing page's.
                             </a>
                         </h2>
                     </div>
-                            <p class="text-sm/6 text-grey-600/70 ">Application Movil UI</p>
-                            <p class="mt-3 text-sm/6 text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p class="text-sm/6 text-grey-600/70 ">Atracción de clientes, informativa y pequeña.</p>
+                            <p class="mt-3 text-sm/6 text-slate-600">Incluye un blog para publicar eventos, nuevos productos y avisos.</p>
                             <div class="mt-4 h-px w-6 bg-slate-300">
                             </div>
                                 <p class="mt-4 text-sm/6 text-slate-600">
                                     <strong class="font-semibold text-white">
-                                        <span>200</span>&nbsp;US$</strong> or included with all-access</p>
+                                        <span>$4,500 </span>&nbsp;MXN</strong></p>
                 </div>
                                     <div class="lg:relative lg:mr-auto lg:flex lg:min-w-0 lg:overflow-x-auto">
                                         <div class="sticky left-0 z-10 hidden w-8 flex-none bg-linear-to-r from-white lg:block">
                                         </div>
                                             <div class="lg:relative lg:flex lg:flex-none lg:items-start lg:pr-8">
-                                                <a tabindex="-1" class="hidden lg:absolute lg:inset-y-0 lg:right-8 lg:-left-8 lg:z-10 lg:block" href="https://tailwindui.com/templates/catalyst">
+                                                <a tabindex="-1" class="hidden lg:absolute lg:inset-y-0 lg:right-8 lg:-left-8 lg:z-10 lg:block" href="#">
                                                     <span class="sr-only text-white">View Catalyst template</span>
                                                 </a>
-                                                <img src="https://tailwindui.com/plus/img/templates/catalyst/preview-01.png" alt="This is a preview image" width="560" height="380" class="w-full rounded-xl bg-slate-100 lg:w-[19.1666666rem] lg:flex-none">
-                                                <img src="https://tailwindui.com/plus/img/templates/catalyst/preview-02.png" alt="This is a preview image" width="560" height="380" class="w-full rounded-xl bg-slate-100 lg:w-[19.1666666rem] lg:flex-none lg:ml-8 hidden lg:block">
-                                                <img src="https://tailwindui.com/plus/img/templates/catalyst/preview-03.png" alt="This is a preview image" width="560" height="380" class="w-full rounded-xl bg-slate-100 lg:w-[19.1666666rem] lg:flex-none lg:ml-8 hidden lg:block">
+                                                <img src="https://cdn.dribbble.com/userupload/16994810/file/original-c6a72b1649c9ba7b49f8b363761c669f.jpg?resize=1504x1128&vertical=center" alt="This is a preview image" width="560" height="380" class="w-full rounded-xl bg-slate-100 lg:w-[19.1666666rem] lg:flex-none">
+                                                <img src="https://cdn.dribbble.com/userupload/13762642/file/original-87dcd6c29bb6d02f6f42a36441eb2a94.png?resize=1200x900&vertical=center" alt="This is a preview image" width="560" height="380" class="w-full rounded-xl bg-slate-100 lg:w-[19.1666666rem] lg:flex-none lg:ml-8 hidden lg:block">
+                                                <img src="https://cdn.dribbble.com/userupload/17860359/file/original-5afe8c47a71f28ed26ae287cc5e6d20d.png?resize=1200x900&vertical=center" alt="This is a preview image" width="560" height="380" class="w-full rounded-xl bg-slate-100 lg:w-[19.1666666rem] lg:flex-none lg:ml-8 hidden lg:block">
                                             </div>
                                     </div>
             </div>
         </section>
 
-        <section id="product-pocket" class="pt-12 sm:pt-16 lg:pt-0">
+        <!-- <section id="product-pocket" class="pt-12 sm:pt-16 lg:pt-0">
             <div class="relative grid grid-cols-1 gap-8 sm:grid-cols-2 lg:flex lg:gap-0">
                 <div class="sm:pt-2 md:pr-6 lg:relative lg:ml-auto lg:w-[19.5rem] lg:flex-none lg:pr-0 lg:pl-8">
                     <div class="flex items-center gap-2">
@@ -167,7 +167,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>    
 </div>
 <section id="get-free-shares-today" class="relative overflow-hidden  py-20 sm:py-28">
@@ -185,10 +185,12 @@
     </div>
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
         <div class="mx-auto max-w-md sm:text-center">
-            <h2 class="text-3xl font-medium tracking-tight text-white sm:text-4xl">La App Perfecta para tu Empresa</h2>
+            <h2 class="text-3xl font-medium tracking-tight text-white sm:text-4xl">La web perfecta para tu empresa.</h2>
                 <p class="mt-4 text-lg text-grey-600/70">
-                    Creamos aplicaciones móviles innovadoras y personalizadas para impulsar tu negocio. 
-                    Explora nuestros proyectos destacados y descubre cómo podemos transformar tus ideas en soluciones móviles de alto impacto.
+                    Da el siguiente paso con nuestras soluciones y establece tu presencia digital hoy mismo.
+                </p>
+                <p class="mt-4 text-lg text-grey-600/70">
+                    Optimizada, funcional, atractiva y con soporte técnico.
                 </p>
             <div class="mt-8 flex justify-center">
                 <svg viewBox="0 0 32 32" aria-hidden="true" class="h-14 w-14">

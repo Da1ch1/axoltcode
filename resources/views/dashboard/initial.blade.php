@@ -26,9 +26,9 @@
       
         <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
             <h2 class="text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl" style="font-family: 'Kanit', 'Inter', 'Saint Self'; font-size: 50px;">
-                Impulsa tu negocio con soluciones digitales a medida.<br>
+                Impulsa tu pequeño negocio con soluciones digitales.<br>
                 <span class="inline-block bg-gradient-to-r from-white via-blue-500 via-70% to-blue-700 bg-clip-text text-transparent">
-                  Sitios web, apps móviles, APIs y más.
+                  Sitios web y sistemas a medida.
                 </span>
               </h2>
           <p class="mt-6 text-pretty text-lg/8 text-gray-300">¡Innovamos para hacer crecer tu negocio!</p>
@@ -115,12 +115,11 @@
               <div class="font-bold text-[#ec454f]">'php'</div>
               <span>[</span>
               <div class="typewriter">
-                <a class="code-link group relative my-4 block rounded border-none pl-4 text-left text-blue-400 hover:bg-blue-400 hover:text-white"  style="margin-left: 10px; width: calc(100% - 10px); font-size: 17px;">
-                  <div class="text-xs font-medium text-grey-600 group-hover:text-white">// deep dives</div>
-                  <span class="font-bold text-white" data-text="<?php"> </span>
-                </a>
-                <a class="code-link group relative my-4 block rounded border-none pl-4 text-left text-blue-400 hover:bg-blue-400 hover:text-white"  style="margin-left: 10px; width: calc(100% - 10px); font-size: 17px;">
-                  <span class="font-bold text-white" data-text='  echo " | AxoltCode ";'> </span>
+                <a class="code-link group relative my-4 block rounded border-none pl-4 text-left text-blue-400 hover:bg-blue-400 hover:text-white" style="margin-left: 10px; width: calc(100% - 10px); font-size: 17px;">
+                    <div class="text-xs font-medium text-gray-600 group-hover:text-white">// deep dives</div>
+                    <span class="font-bold text-white" data-text="<?php echo ' | AxoltCode '; ?>"> 
+                        <?php echo " | AxoltCode "; ?>
+                    </span>
                 </a>
                 <a class="code-link group relative my-4 block rounded border-none pl-4 text-left text-blue-400 hover:bg-blue-400 hover:text-white"  style="margin-left: 10px; width: calc(100% - 10px); font-size: 17px;">
                   <span class="font-bold text-white" data-text="?>"> </span>

@@ -67,4 +67,11 @@ class PageController extends Controller
 
         return view('servicios.dweb.include', compact('user'));
     }
+
+    public function cibersecurity()
+    {
+        $user = Auth::user();
+
+        return view('servicios.cibersecurity.include', compact('user'));
+    }
 }

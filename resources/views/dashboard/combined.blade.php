@@ -69,7 +69,8 @@
     @include('dashboard.section')
 
     @include('dashboard.grid')
-    @include('dashboard.testimonios')
+    <div class="my-8 border-t border-gray-600 mx-8"></div>
+    <!-- @include('dashboard.testimonios') -->
 @endsection
 <script>
   document.addEventListener("DOMContentLoaded", function () {

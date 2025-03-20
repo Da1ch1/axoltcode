@@ -1,24 +1,38 @@
 <footer style=" border-radius:10px; background-image: url({{asset('img/pieweb.webp')}}); background-size: contain; background-repeat: no-repeat; background-position: left center; background-blend-mode: overlay;" class="text-white py-8 rounded-lg">
-    <div class="container mx-auto px-4">
-        <div class="grid grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Sección de Soluciones -->
+
+<div class="container mx-auto px-10">
+    <!-- Seccion descriptiva -->
+        <!-- <div class="hidden md:flex md:w-2/5 flex-col items-center mt-8 md:mt-0 text-center mx-auto">
+            <h6 class="uppercase font-bold flex items-center justify-center">
+                <a href="{{route('inicio')}}">  
+                    <img class="logo-pie" src="{{ asset('img/logo.webp') }}" alt="">
+                </a>
+            </h6>
+            <p class="text-gray-300 hover:text-white mt-4 text-sm md:text-base leading-relaxed max-w-xs">
+                .
+            </p>
+        </div> -->
+        <!-- <div class="my-8 border-t border-gray-600 mx-8"></div> -->
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-8 mx-auto text-center">
+    <!-- Sección de Soluciones -->
             <div>
+                
                 <h3 class="text-xl font-semibold mb-4">Servicios</h3>
                 <ul class="space-y-2">
-                    <li><a href="#" class="text-gray-400 hover:text-white">Sitios Web</a></li>
+                    <li><a href="{{route('dweb')}}" class="text-gray-400 hover:text-white">Sitios Web</a></li>
                     <li><a href="#" class="text-gray-400 hover:text-white">Consultoria Técnica</a></li>
-                    <li><a href="{{route('movil')}}" class="text-gray-400 hover:text-white">Apps Móviles</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Apps Móviles</a></li>
                 </ul>
             </div>
+
             <!-- Sección de Soporte -->
             <div>
-                <h3 class="text-xl font-semibold mb-4">Developers</h3>
-                <ul class="space-y-2">
-                    <li><a href="#" class="text-gray-400 hover:text-white">Angianovic</a></li>
-                    <li><a href="#" class="text-gray-400 hover:text-white">Lalo</a></li>
-                    <li><a href="#" class="text-gray-400 hover:text-white">Geovani</a></li>
-                </ul>
+                <h3 class="text-xl font-semibold mb-4">Contacto</h3>
+                <p class="text-gray-300 hover:text-white"><i class="fas fa-envelope text-gray-500 mr-2"></i> info@axoltcode.mx</p>
+                <p class="text-gray-300 hover:text-white"><i class="fas fa-home text-gray-500 mr-2"></i> Guadalajara, Jalisco, México</p>
+                <!-- <p class="text-gray-300 hover:text-white"><i class="fas fa-phone text-gray-500 mr-2"></i> +52 </p> -->
             </div>
+
             <!-- Sección Legal -->
             <div>
                 <h3 class="text-xl font-semibold mb-4">Legal</h3>
@@ -28,62 +42,57 @@
                     <li><a href="#" class="text-gray-400 hover:text-white">License</a></li>
                 </ul>
             </div>
+
             <!-- Bloque con logo y descripción -->
-            <div class="block lg:hidden">
-                <h6 class="uppercase font-bold flex items-center justify-center md:justify-start">
+            <div class="block lg:hidden mx-auto text-center">
+                <h6 class="uppercase font-bold flex items-center justify-center">
                     <a href="{{route('inicio')}}">  
                         <img class="logo-pie" src="{{ asset('img/logo.webp') }}" alt="">
                     </a>
                 </h6>
-                <p class="text-gray-300 hover:text-white mt-4">
-                    Nueve de cada diez médicos recomiendan nuestros servicios sobre marcas competidoras. Entra, compruébalo por ti mismo y aumenta enormemente tus clientes.
-                </p>
+                <!-- <p class="text-gray-300 hover:text-white mt-4">
+                    Una página web optimizada, altamente efectiva y visualmente atractiva le permite a tu empresa dar a conocer los productos y servicios que ofrece, los trabajos y proyectos, como ubicarte y contactarte de la forma más fácil y rápida.
+                </p> -->
             </div>
         </div>
+        
         <!-- Sección de suscripción -->
-        <div class="flex flex-col md:flex-row justify-between items-start mt-8">
-            <!-- Sección de suscripción -->
+        <!-- <div class="flex flex-col md:flex-row justify-between items-start mt-8">
+            Sección de suscripción
             <div class="md:w-3/5 text-start">
                 <h3 class="text-xl font-semibold mb-4 clamp text-sm !font-medium xl:text-base text-grey-600/70">¡Cotiza tu proyecto!</h3>
-                <p class="text-grey-600/70 mb-4">The latest news, articles, and resources, sent to your inbox weekly.</p>
+                <p class="text-grey-600/70 mb-4">Envianos un mensaje.</p>
                 <form id="subscribe-form" class="flex flex-col justify-left gap-2">
-                    <!-- Textarea -->
+                   
                     <textarea id="about" name="about" rows="2" 
                         class="p-2 rounded-lg border-2 bg-gray-400 border-blue-900  clamp text-sm !font-medium xl:text-base w-full sm:w-3/4 md:w-1/1" style="color: rgb(87 101 116);" 
                         placeholder="Write your message" required>
                     </textarea>
-                    <!-- Contenedor flex para el input y el botón -->
+                    
                     <div class="flex flex-col sm:flex-row w-full sm:w-3/4 md:w-1/2 gap-3">
-                        <!-- Input -->
+                        
                         <input type="email" id="email-address" 
                             class="p-2 clamp text-sm !font-medium xl:text-base rounded-lg border-2 border-blue-900 bg-gray-400 text-gray-800 w-full" style="color: rgb(87 101 116);" 
                             placeholder="Enter your email" required>
-                        <!-- Botón -->
+                        
                         <button type="submit" 
                             class="p-2 rounded-lg bg-blue-900 text-grey-600/70 hover:bg-blue-800 w-full sm:w-auto">
                             Enviar
                         </button>
                     </div>
                 </form>
-                <!-- Alerta personalizada -->
+
                 <div id="alert" class="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 backdrop-blur-sm z-50 hidden">
                     <div class="bg-gray-600 p-3 rounded-md shadow-lg w-80 sm:w-1 md:w-1 lg:w-1/2 text-center">
                         <p id="alert-message" class="text-xl text-gray-300"></p>
                     </div>
                 </div>
             </div>
-            <!-- Bloque con logo y descripción -->
-            <div class="hidden md:flex md:w-2/5 flex-col items-center md:items-start mt-8 md:mt-0">
-                <h6 class="uppercase font-bold flex items-center justify-center md:justify-start">
-                    <a href="{{route('inicio')}}">  
-                        <img class="logo-pie" src="{{ asset('img/logo.webp') }}" alt="">
-                    </a>
-                </h6>
-                <p class="text-gray-300 hover:text-white mt-4 text-sm md:text-base leading-relaxed max-w-xs">
-                    Nueve de cada diez médicos recomiendan nuestros servicios sobre marcas competidoras. Entra, compruébalo por ti mismo y aumenta enormemente tus clientes.
-                </p>
-            </div>
-        </div>
+
+            
+        </div> -->
+        
+
         <!-- Línea divisoria -->
         <div class="my-8 border-t border-gray-600 mx-8"></div>
         <!-- Sección de derechos de autor y redes sociales -->
@@ -118,7 +127,7 @@
             </div>
             <!-- Copyright -->
             <p class="text-gray-400 text-sm sm:order-last sm:text-left mt-4 sm:mt-0">
-                © 2024 Copyright: <a class="font-bold text-gray-300 hover:text-white" >Axoltcode.com</a>
+                © 2025 Copyright: <a class="font-bold text-gray-300 hover:text-white" >Axoltcode.mx</a>
             </p>
         </div>
     </div>

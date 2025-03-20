@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <title>Axoltcode | Developers</title>
+        <title>Axoltcode | Freelancers</title>
 
         <!-- Fonts -->
-        <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+        <link rel="icon" href="{{ asset('img/icon.png') }}" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
@@ -48,20 +48,15 @@
                 </a>
               </div>                           
             @yield('services')
-            <div class="relative min-h-screen flex flex-col items-center justify-center  selection:text-white">
-
-                <div class="relative w-full max-w-2xl px-6 lg:max-w-7xl">
-                    <footer class="py-16 text-center text-sm ">
-                       @include('layouts.pie')
-                    </footer>
-                </div>
-            </div>
         </div>
+        
     </body>
+    
+   
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="{{ asset('js/navbar.js') }}"></script>
     <script src="{{asset('js/technologies.js')}}"></script>
     <script src="{{asset('js/initial.js')}}"></script>
     <script src="{{asset('js/testimonial.js')}}"></script>
 </html>
-

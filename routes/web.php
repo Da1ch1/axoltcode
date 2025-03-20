@@ -10,11 +10,12 @@ use App\Http\Controllers\TestimonialController;
 
 // Ruta principal
 Route::get('/', [PageController::class, 'index'])->name('inicio');
-Route::get('/Services', [PageController::class, 'servicios'])->name('inicial');
-Route::get('/Services/movil', [PageController::class, 'movil'])->name('movil');
-Route::get('/Services/web', [PageController::class, 'dweb'])->name('dweb');
-Route::get('/Projects', [PageController::class, 'proyectos'])->name('projects');
-Route::get('/Us', [PageController::class, 'nosotros'])->name('us');
+Route::get('/services', [PageController::class, 'servicios'])->name('inicial');
+Route::get('/services/movil', [PageController::class, 'movil'])->name('movil');
+Route::get('/services/web', [PageController::class, 'dweb'])->name('dweb');
+Route::get('/services/security', [PageController::class, 'cibersecurity'])->name('cibersecurity');
+Route::get('/projects', [PageController::class, 'proyectos'])->name('projects');
+Route::get('/us', [PageController::class, 'nosotros'])->name('us');
 
 // Ruta para la redirección con Google
 Route::get('/google-auth/redirect', function () {

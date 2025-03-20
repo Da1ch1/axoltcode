@@ -28,7 +28,7 @@
                   <a href="{{route('inicio')}}">  <img class="logo-pie" src="{{ asset('img/logo.webp') }}" alt=""></a>
                 </h6>
                 <p class="text-gray-300 hover:text-white">
-                    Nueve de cada diez médicos recomiendan nuestros servicios sobre marcas competidoras. Entra, compruébalo por ti mismo y aumenta enormemente tus clientes.
+                   .
                 </p>
             </div>
 
@@ -37,35 +37,36 @@
                 <h6 class="uppercase font-bold mb-4">Servicios</h6>
                 <ul>
                     <li><a href="#" class="text-gray-300 hover:text-white">Sitios web</a></li>
-                    <li><a href="#" class="text-gray-300 hover:text-white">Consultoria técnica</a></li>
-                    <li><a href="#" class="text-gray-300 hover:text-white">Apps móviles</a></li>
+                    <!-- <li><a href="#" class="text-gray-300 hover:text-white">Consultoria técnica</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white">Apps móviles</a></li> -->
                 </ul>
             </div>
 
             <!-- Columna 3 -->
-            <div>
+            <!-- <div>
                 <h6 class="uppercase font-bold mb-4">Developers</h6>
                 <ul>
                     <li><a href="#" class="text-gray-300  hover:text-white">Cesar</a></li>
-                    <li><a href="#" class="text-gray-300  hover:text-white">Lalo</a></li>
-                    <li><a href="#" class="text-gray-300  hover:text-white">Geovani</a></li>
+                    <li><a href="#" class="text-gray-300  hover:text-white">Eduardo</a></li>
+                    <li><a href="#" class="text-gray-300  hover:text-white">Giovanni</a></li>
+                    <li><a href="#" class="text-gray-300  hover:text-white">Luis</a></li>
                 </ul>
-            </div>
+            </div> -->
 
             <!-- Columna 4 -->
             <div>
                 <h6 class="uppercase font-bold mb-4">Contacto</h6>
-                <p class="text-gray-300 hover:text-white"><i class="fas fa-home text-gray-500 mr-2"></i>Guadalajara, #, México</p>
-                <p class="text-gray-300 hover:text-white"><i class="fas fa-envelope text-gray-500 mr-2"></i> info@example.com</p>
-                <p class="text-gray-300 hover:text-white"><i class="fas fa-phone text-gray-500 mr-2"></i> + 01 234 567 88</p>
-                <p class="text-gray-300 hover:text-white"><i class="fas fa-print text-gray-500 mr-2"></i> + 01 234 567 89</p>
+                <p class="text-gray-300 hover:text-white"><i class="fas fa-envelope text-gray-500 mr-2"></i> info@axoltcode.mx</p>
+                <p class="text-gray-300 hover:text-white"><i class="fas fa-home text-gray-500 mr-2"></i>Guadalajara, Jalisco, México</p>
+                <p class="text-gray-300 hover:text-white"><i class="fas fa-phone text-gray-500 mr-2"></i> +52 3328379596</p>
+            </div>
             </div>
         </div>
     </div>
 
     <!-- Copyright -->
     <div style="background: rgba(28, 36, 50, 0.8); border-radius:10px" class="text-center p-4">
-        © 2024 Copyright:
-        <a class="font-bold text-gray-300 hover:text-white" >Axoltcode.com</a>
+        © 2025 Copyright:
+        <a class="font-bold text-gray-300 hover:text-white" >Axoltcode.mx</a>
     </div>
 </footer>
