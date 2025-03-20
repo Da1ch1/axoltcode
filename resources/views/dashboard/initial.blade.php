@@ -111,6 +111,32 @@
         
           <!-- Lenguaje PHP -->
           <div class="code-content hidden" data-lang="php">
+          <div class="font-bold">
+            <div class="font-bold text-[#ec454f]">'php'</div>
+            <span>[</span>
+            <div class="typewriter">
+              <!-- Open PHP Tag -->
+              <a class="code-link group relative my-4 block rounded border-none pl-4 text-left text-blue-400 hover:bg-blue-400 hover:text-white"  
+                style="margin-left: 10px; width: calc(100% - 10px); font-size: 17px;">
+                <div class="text-xs font-medium text-grey-600 group-hover:text-white">// deep dives</div>
+                <span class="font-bold text-white" data-text="&lt;?php"></span>
+              </a>
+              
+              <!-- PHP Code -->
+              <a class="code-link group relative my-4 block rounded border-none pl-4 text-left text-blue-400 hover:bg-blue-400 hover:text-white"  
+                style="margin-left: 10px; width: calc(100% - 10px); font-size: 17px;">
+                <span class="font-bold text-white" data-text="  echo &quot; | AxoltCode &quot;;"></span>
+              </a>
+              
+              <!-- Close PHP Tag -->
+              <a class="code-link group relative my-4 block rounded border-none pl-4 text-left text-blue-400 hover:bg-blue-400 hover:text-white"  
+                style="margin-left: 10px; width: calc(100% - 10px); font-size: 17px;">
+                <span class="font-bold text-white" data-text="?&gt;"></span>
+              </a>
+            </div>
+            <span class="font-bold xl:inline">]</span>
+          </div>
+        </div>
             <div class="font-bold">
               <div class="font-bold text-[#ec454f]">'php'</div>
               <span>[</span>
