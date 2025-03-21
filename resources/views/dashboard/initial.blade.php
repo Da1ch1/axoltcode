@@ -1,7 +1,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kanit:wght@400;700&display=swap" rel="stylesheet">
 
-<div class=" px-4  min-w-full">
-    <div class="mx-auto  py-4 sm:px-6 sm:py-9 lg:px-8 relative w-full max-w-2xl lg:max-w-7xl" >
+<div class="px-4 min-w-full">
+    <div class="mx-auto py-4 sm:px-6 sm:py-9 lg:px-8 relative w-full max-w-2xl lg:max-w-7xl" >
       <div style="background: rgb(5, 5, 5); border-radius: 25px" class="  rounded-lg ring-1  transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] dark:ring-zinc-800 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20] relative isolate overflow-hidden px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
       <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 size-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0" aria-hidden="true">
         <circle cx="512" cy="512" r="912" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
@@ -26,9 +26,9 @@
       
         <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
             <h2 class="text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl" style="font-family: 'Kanit', 'Inter', 'Saint Self'; font-size: 50px;">
-                Impulsa tu pequeño negocio con soluciones digitales.<br>
+                Impulsa tu negocio con soluciones digitales a medida.<br>
                 <span class="inline-block bg-gradient-to-r from-white via-blue-500 via-70% to-blue-700 bg-clip-text text-transparent">
-                  Sitios web y sistemas a medida.
+                  Sitios web, apps móviles, APIs y más.
                 </span>
               </h2>
           <p class="mt-6 text-pretty text-lg/8 text-gray-300">¡Innovamos para hacer crecer tu negocio!</p>
@@ -111,41 +111,16 @@
         
           <!-- Lenguaje PHP -->
           <div class="code-content hidden" data-lang="php">
-          <div class="font-bold">
-            <div class="font-bold text-[#ec454f]">'php'</div>
-            <span>[</span>
-            <div class="typewriter">
-              <!-- Open PHP Tag -->
-              <a class="code-link group relative my-4 block rounded border-none pl-4 text-left text-blue-400 hover:bg-blue-400 hover:text-white"  
-                style="margin-left: 10px; width: calc(100% - 10px); font-size: 17px;">
-                <div class="text-xs font-medium text-grey-600 group-hover:text-white">// deep dives</div>
-                <span class="font-bold text-white" data-text="&lt;?php"></span>
-              </a>
-              
-              <!-- PHP Code -->
-              <a class="code-link group relative my-4 block rounded border-none pl-4 text-left text-blue-400 hover:bg-blue-400 hover:text-white"  
-                style="margin-left: 10px; width: calc(100% - 10px); font-size: 17px;">
-                <span class="font-bold text-white" data-text="  echo &quot; | AxoltCode &quot;;"></span>
-              </a>
-              
-              <!-- Close PHP Tag -->
-              <a class="code-link group relative my-4 block rounded border-none pl-4 text-left text-blue-400 hover:bg-blue-400 hover:text-white"  
-                style="margin-left: 10px; width: calc(100% - 10px); font-size: 17px;">
-                <span class="font-bold text-white" data-text="?&gt;"></span>
-              </a>
-            </div>
-            <span class="font-bold xl:inline">]</span>
-          </div>
-        </div>
             <div class="font-bold">
               <div class="font-bold text-[#ec454f]">'php'</div>
               <span>[</span>
               <div class="typewriter">
-                <a class="code-link group relative my-4 block rounded border-none pl-4 text-left text-blue-400 hover:bg-blue-400 hover:text-white" style="margin-left: 10px; width: calc(100% - 10px); font-size: 17px;">
-                    <div class="text-xs font-medium text-gray-600 group-hover:text-white">// deep dives</div>
-                    <span class="font-bold text-white" data-text="<?php echo ' | AxoltCode '; ?>"> 
-                        <?php echo " | AxoltCode "; ?>
-                    </span>
+                <a class="code-link group relative my-4 block rounded border-none pl-4 text-left text-blue-400 hover:bg-blue-400 hover:text-white"  style="margin-left: 10px; width: calc(100% - 10px); font-size: 17px;">
+                  <div class="text-xs font-medium text-grey-600 group-hover:text-white">// deep dives</div>
+                  <span class="font-bold text-white" data-text='&lt;?php'> </span>
+                </a>
+                <a class="code-link group relative my-4 block rounded border-none pl-4 text-left text-blue-400 hover:bg-blue-400 hover:text-white"  style="margin-left: 10px; width: calc(100% - 10px); font-size: 17px;">
+                  <span class="font-bold text-white" data-text='  echo " | AxoltCode ";'> </span>
                 </a>
                 <a class="code-link group relative my-4 block rounded border-none pl-4 text-left text-blue-400 hover:bg-blue-400 hover:text-white"  style="margin-left: 10px; width: calc(100% - 10px); font-size: 17px;">
                   <span class="font-bold text-white" data-text="?>"> </span>

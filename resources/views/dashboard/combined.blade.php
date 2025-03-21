@@ -60,7 +60,7 @@
     <!-- Loader -->
     <div id="loader" class="loader-container">
       <div class="reverse-spinner"></div>
-  </div>
+    </div>
     @include('dashboard.initial')
 
       @include('dashboard.technologies')

@@ -32,7 +32,6 @@
             margin: 5%;
             padding-top: 7%;
             /* transition: opacity 1s ease-in-out; */
-            
         }
 
         /* Ocultar cuando se hace scroll */

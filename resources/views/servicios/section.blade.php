@@ -1,21 +1,21 @@
 <style>
-  /* Estado inicial para los elementos */
-.observed {
-opacity: 0;
-transform: translateX(-60px); /* Desplaza el elemento hacia la izquierda inicialmente */
-transition: opacity 0.9s ease, transform 0.9s ease; /* Transición suave para las propiedades */
-}
+    /* Estado inicial para los elementos */
+  .observed {
+  opacity: 0;
+  transform: translateX(-60px); /* Desplaza el elemento hacia la izquierda inicialmente */
+  transition: opacity 0.9s ease, transform 0.9s ease; /* Transición suave para las propiedades */
+  }
 
-/* Animación para aparecer (fade hacia la derecha) */
-.animate-slide-in {
-opacity: 1;
-transform: translateX(0); /* Regresa a su posición original */
-}
+  /* Animación para aparecer (fade hacia la derecha) */
+  .animate-slide-in {
+  opacity: 1;
+  transform: translateX(0); /* Regresa a su posición original */
+  }
 
-/* Animación para desaparecer */
-.animate-slide-out {
-opacity: 0;
-transform: translateX(20px); /* Desplaza el elemento hacia la derecha al desaparecer */
+  /* Animación para desaparecer */
+  .animate-slide-out {
+  opacity: 0;
+  transform: translateX(20px); /* Desplaza el elemento hacia la derecha al desaparecer */
 } 
 </style>
 <div class="">

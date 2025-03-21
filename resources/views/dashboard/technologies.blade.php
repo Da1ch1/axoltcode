@@ -1,6 +1,27 @@
+<style>
+   .scroll-container {
+    overflow-y: hidden;
+    overflow-x: auto;
+    scrollbar-width: thin;
+   }
+  .scroll-container::-webkit-scrollbar {
+    width: 1px;
+  }
+
+  .scroll-container::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 5px;
+  }
+
+  .scroll-container::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+  }
+</style>
+
 <div class="flex flex-col items-center justify-center min-h-screen text-center">
   <nav class="container mt-20 mb-7 overflow-hidden px-[30px] xl:px-0" aria-label="Topics Menu">
-      <ul class="observed flex min-h-[40px] items-center gap-x-4 overflow-x-auto overflow-y-hidden from-transparent via-[rgba(50,138,241,0.15)] to-transparent pr-[20px] text-center leading-loose after:absolute after:bottom-[-20px] after:hidden after:h-px after:w-full after:flex-shrink-0 after:bg-gradient-to-r md:mx-auto md:min-h-0 md:justify-center md:gap-x-8 md:overflow-x-visible md:overflow-y-visible md:pr-0 after:md:block lg:gap-x-12" style="max-width: 800px;">
+      <ul class="scroll-container observed flex min-h-[40px] items-center gap-x-4 from-transparent via-[rgba(50,138,241,0.15)] to-transparent pr-[20px] text-center leading-loose after:absolute after:bottom-[-20px] after:hidden after:h-px after:w-full after:flex-shrink-0 after:bg-gradient-to-r md:mx-auto md:min-h-0 md:justify-center md:overflow-x-visible md:overflow-y-visible md:pr-0 after:md:block lg:gap-x-12 animate-slide-in">
       <li class="relative filter-item active cursor-pointer inline-block flex-shrink-0" data-category="all">
         <a class="taxonomy-nav-link rounded-full px-4 py-2 text-base font-medium hover:text-white md:px-0 md:py-0 md:text-lg md:bg-transparent text-card-300">Todo </a>
       </li>
@@ -27,6 +48,7 @@
       </li>
     </ul>
   </nav>
+
   <div class="container">
     <div class="sm:py-22">
       <div class="scrolling-container-section mx-auto max-w-7xl px-6 lg:px-8 text-center">
