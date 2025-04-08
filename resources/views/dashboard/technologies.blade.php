@@ -2,8 +2,10 @@
    .scroll-container {
     overflow-y: hidden;
     overflow-x: auto;
-    scrollbar-width: thin;
-   }
+    scrollbar-width: 1px;
+    scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+  }
+
   .scroll-container::-webkit-scrollbar {
     width: 1px;
   }
@@ -14,7 +16,7 @@
   }
 
   .scroll-container::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(95, 95, 95, 0.2);
     border-radius: 5px;
   }
 </style>

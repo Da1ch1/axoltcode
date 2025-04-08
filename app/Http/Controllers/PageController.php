@@ -27,6 +27,7 @@ class PageController extends Controller
         // Devolver la vista dashboard.combined con los testimonios y el estado del testimonio
         return view('dashboard.combined', compact('user', 'testimonials', 'userTestimonial'));
     }
+
     public function servicios()
     {
         // Obtiene el usuario autenticado
@@ -39,10 +40,10 @@ class PageController extends Controller
     public function proyectos()
     {
         // Obtiene el usuario autenticado
-        $user = Auth::user(); 
+        $user = Auth::user();
 
         // Devuelve la vista proyectos.index con los datos del usuario
-        return view('proyectos.index', compact('user'));
+        return view('proyectos.inicial', compact('user'));
     }
 
     public function nosotros()

@@ -31,8 +31,8 @@
           <!-- Menú central -->
           <div class="hidden sm:flex flex-1 justify-center space-x-4 mt-4 sm:mt-0">
             <a href="{{ route('inicial') }}" class="menu-link">Servicios</a>
-            <a href="{{ route('projects')}}" class="menu-link">Proyectos</a>
-            <a href="{{ route('us')}}" class="menu-link">Nosotros</a>
+            <a href="{{ route('projects') }}" class="menu-link">Proyectos</a>
+            <a href="{{ route('us') }}" class="menu-link">Nosotros</a>
           </div>
         </div>
         

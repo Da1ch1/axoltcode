@@ -34,9 +34,13 @@
         @yield('services')
 
         @yield('content')
+        
+        @yield('projects')
         <!-- <div class="relative min-h-screen flex flex-col items-center justify-center selection:text-white">
             
-            @yield('profile-content')
+        @yield('profile-content')
+
+        
         </div> -->
         @include('layouts.pie')
     </div>

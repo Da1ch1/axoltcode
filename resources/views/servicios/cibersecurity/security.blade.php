@@ -24,21 +24,19 @@
             position: fixed;
             top: 0;
             left: 0;
-            /* background: white; */
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: left;
             margin: 5%;
             padding-top: 7%;
-            /* transition: opacity 1s ease-in-out; */
+           
         }
 
-        /* Ocultar cuando se hace scroll */
-        .hidden {
+        /* .hidden {
             opacity: 0;
             pointer-events: none;
-        }
+        } */
 
         /* Sección de contenido posterior */
         .content {
@@ -74,13 +72,13 @@
             }
         }
 
-
         @keyframes float {
             0% { transform: translateY(0px); }
             50% { transform: translateY(-10px); }
             100% { transform: translateY(0px); }
         }
     </style>
+    
 </head>
 <body>
     <div class="container py-5">
