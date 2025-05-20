@@ -25,7 +25,7 @@
       </div>
       
         <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-            <h2 class="text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl" style="font-family: 'Kanit', 'Inter', 'Saint Self'; font-size: 50px;">
+            <h2 class="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl" style="font-family: 'Kanit', 'Inter', 'Saint Self'; font-size: 50px;">
                 Impulsa tu negocio con soluciones digitales a medida.<br>
                 <span class="inline-block bg-gradient-to-r from-white via-blue-500 via-70% to-blue-700 bg-clip-text text-transparent">
                   Sitios web, apps móviles, APIs y más.
@@ -59,7 +59,7 @@
         <div class="observed relative mt-16 w-full h-auto h-full lg:mt-8 flex items-end justify-end">
          <!-- -->
  
-         <div class="code-menu hide-scrollbar relative z-10 h-auto w-full sm:w-[90%] md:w-[80%] lg:w-[317px] flex-shrink-0 overflow-x-auto rounded-xl border border-card-900 mb-7 mt-2 sm:mt-20 bg-[#020407] px-4 py-4 sm:px-6 sm:py-6 font-bold text-white">
+         <div class="code-menu hide-scrollbar relative z-10 h-auto w-full sm:w-[80%] md:w-[70%] lg:w-[347px] flex-shrink-0 overflow-x-auto rounded-xl border border-card-900 mb-7 mt-2 sm:mt-20 bg-[#020407] px-4 py-4 sm:px-6 sm:py-6 font-bold text-white">
           <div class="languages mb-6">
             <span class="language-selector" data-lang="py">Python</span>
             <span class="language-selector" data-lang="js">JavaScript</span>

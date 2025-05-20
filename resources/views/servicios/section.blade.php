@@ -31,7 +31,7 @@ transform: translateX(20px); /* Desplaza el elemento hacia la derecha al desapar
               <div class="mt-1 flex">
                 <div class="relative shrink-0 p-4 hidden lg:block">
                   <div class="relative z-10 overflow-hidden rounded-sm ring-1 shadow-xl ring-slate-900/5">
-                    <img class="h-[304px] w-[266px]" src="">
+                    <img class="h-[304px] w-[416px]" src="{{ asset('img/Landing-Pages-pc.png') }}">
                   </div>
                   <div class="z-0">
                     <div class="absolute top-0 -right-12 left-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]">
@@ -54,7 +54,7 @@ transform: translateX(20px); /* Desplaza el elemento hacia la derecha al desapar
                     </div>
                     <div class="relative mt-14 shrink-0 p-4 mx-auto w-full sm:w-[266px]" >
                       <div class="overflow-hidden rounded-sm ring-1 shadow-xl ring-slate-900/5">
-                        <img class="h-[354px] lg:w-[236px] sm:w-[266px]" src="">
+                       <img class="h-[244px] sm:hidden block" src="{{ asset('img/Landing-Pages-pc.png') }}"> 
                       </div>
                       <div>
                         <div class="absolute top-0 -right-8 -left-4 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]">
@@ -80,7 +80,7 @@ transform: translateX(20px); /* Desplaza el elemento hacia la derecha al desapar
         
           <dl class="grid max-w-xl  gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-4 lg:gap-y-16">
             <div class="observed relative pl-16 rounded-lg ring-1 ring-white/[0.03] transition duration-300 dark:hover:ring-zinc-700">
-              <a href="{{route ('movil')}}">
+              <a href="">
               <dt class="text-base/7 font-semibold text-white mt-3">
                 <div class="absolute left-3 top-3 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
                   <svg class="size-10 shrink-0 transform-cpu rounded-lg shadow-md shadow-sky-500/[.12]" viewBox="0 0 40 40" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -93,7 +93,7 @@ transform: translateX(20px); /* Desplaza el elemento hacia la derecha al desapar
                 Desarrollo Móvil
               </dt>
               <dd class="mt-2 text-sm p-2 text-gray-600 sm:text-base">
-                Desarrollamos aplicaciones móviles a la medida, garantizando funcionalidad, diseño intuitivo y tecnología de vanguardia para potenciar tu negocio.
+               <!-- Desarrollamos aplicaciones móviles a la medida, garantizando funcionalidad, diseño intuitivo y tecnología de vanguardia para potenciar tu negocio.--> PROXIMAMENTE...
               </dd>
               <!-- El SVG ahora está en la parte inferior derecha -->
               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-arrow-right-circle absolute right-0 bottom-0 mr-3 mb-3" viewBox="0 0 16 16">
@@ -142,7 +142,7 @@ transform: translateX(20px); /* Desplaza el elemento hacia la derecha al desapar
                 </div>
                 Consultoria técnica
               </dt>
-              <dd class="mt-2 text-sm p-2 mb-2 text-gray-600 sm:text-base">Maximiza el potencial de tu negocio con nuestra consultoría técnica. Ofrecemos soluciones personalizadas que optimizan tus procesos y garantizan resultados efectivos. ¡Confía en expertos para transformar tus ideas en éxito!</dd>
+              <dd class="mt-2 text-sm p-2 mb-2 text-gray-600 sm:text-base"><!--Maximiza el potencial de tu negocio con nuestra consultoría técnica. Ofrecemos soluciones personalizadas que optimizan tus procesos y garantizan resultados efectivos. ¡Confía en expertos para transformar tus ideas en éxito!--> PROXIMAMENTE...</dd>
               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-arrow-right-circle absolute right-0 bottom-0 mr-3 mb-3" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
               </svg>  

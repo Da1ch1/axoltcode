@@ -1,8 +1,8 @@
 <section id="features" aria-label="Features for investing all your money" class=" py-10 sm:py-2">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
-        <h2 class="text-3xl font-medium tracking-tight text-white">Every feature you need to win. Try it for yourself.</h2>
-        <p class="mt-2 text-lg text-gray-400">Pocket was built for investors like you who play by their own rules and aren’t going to let SEC regulations get in the way of their dreams. If other investing tools are afraid to build it, Pocket has it.</p>
+        <h2 class="text-3xl font-medium tracking-tight text-white">  Todas las soluciones que tu empresa necesita.<br> ¡Pruébalo ahora!</h2>
+        <p class="mt-2 text-lg text-gray-400">En AxoltCode desarrollamos software a la medida, optimizamos procesos y creamos herramientas digitales que impulsan tu negocio. Si buscas innovación, seguridad y eficiencia, nosotros lo hacemos posible.</p>
       </div>
     </div>
      <!-- pantalla pequeña-->
@@ -35,10 +35,11 @@
                   </svg>
                 </div>
                 <div class="mt-6 px-4 text-white">
-                  <div class="text-2xl text-white">Invite people</div>
-                  <div class="text-sm text-gray-500">Get tips <span class="text-white">5s sooner</span> for every invite.</div>
+                  <div class="text-2xl text-white">UI</div>
+                  <div class="text-sm text-gray-500"> <span class="text-white"></span></div>
                 </div>
                 <div class="mt-6 flex-auto rounded-t-2xl bg-white">
+                  <img class="h-[254px] mt-5 ml-3 sm:hidden block" src="{{ asset('img/ui.png') }}"> 
                 </div>
               </div>
             </div>
@@ -53,8 +54,8 @@
               <path fill-rule="evenodd" clip-rule="evenodd" d="M16 23a3 3 0 100-6 3 3 0 000 6zm-1 2a4 4 0 00-4 4v1a2 2 0 002 2h6a2 2 0 002-2v-1a4 4 0 00-4-4h-2z" fill="#737373"></path>
               <path fill-rule="evenodd" clip-rule="evenodd" d="M5 4a4 4 0 014-4h14a4 4 0 014 4v24a4.002 4.002 0 01-3.01 3.877c-.535.136-.99-.325-.99-.877s.474-.98.959-1.244A2 2 0 0025 28V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9a2 2 0 00-2 2v24a2 2 0 001.041 1.756C8.525 30.02 9 30.448 9 31s-.455 1.013-.99.877A4.002 4.002 0 015 28V4z" fill="#A3A3A3"></path>
             </svg>
-            <h3 class="mt-6 text-sm font-semibold text-white sm:text-lg">Invite friends for better returns</h3>
-            <p class="mt-2 text-sm text-gray-400">For every friend you invite to Pocket, you get insider notifications 5 seconds sooner. And it’s 10 seconds if you invite an insider.</p>
+            <h3 class="mt-6 text-sm font-semibold text-white sm:text-lg">UI</h3>
+            <p class="mt-2 text-sm text-gray-400">Disfruta de una interfaz de usuario intuitiva y fácil de usar, diseñada para que puedas acceder rápidamente a todas las funciones sin complicaciones.</p>
           </div>
         </div>
       </div>
@@ -85,8 +86,8 @@
                 </svg>
               </div>
               <div class="mt-6 px-4 text-white">
-                <div class="text-2xl text-white">Stocks</div>
-                <div class="text-sm text-gray-500">March 9, 2022</div>
+                <div class="text-2xl text-white">Diseño Responsivo</div>
+                <div class="text-sm text-gray-500"></div>
               </div>
               <div class="mt-6 flex-auto rounded-t-2xl bg-white">
                 <div class="divide-y divide-gray-100">
@@ -103,10 +104,9 @@
           <svg viewBox="0 0 32 32" aria-hidden="true" class="h-8 w-8">
             <circle cx="16" cy="16" r="16" fill="#A3A3A3" fill-opacity="0.2"></circle>
             <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0a4 4 0 00-4 4v24a4 4 0 004 4h14a4 4 0 004-4V4a4 4 0 00-4-4H9zm0 2a2 2 0 00-2 2v24a2 2 0 002 2h14a2 2 0 002-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9z" fill="#A3A3A3"></path>
-            <path d="M9 8a2 2 0 012-2h10a2 2 0 012 2v2a2 2 0 01-2 2H11a2 2 0 01-2-2V8z" fill="#737373"></path>
           </svg>
-          <h3 class="mt-6 text-sm font-semibold text-white sm:text-lg">Notifications on stock dips</h3>
-          <p class="mt-2 text-sm text-gray-400">Get a push notification every time we find out something that’s going to lower the share price on your holdings so you can sell before the information hits the public markets.</p>
+          <h3 class="mt-6 text-sm font-semibold text-white sm:text-lg">Diseño Responsivo</h3>
+          <p class="mt-2 text-sm text-gray-400">Nuestra plataforma se ajusta automáticamente a cualquier dispositivo, asegurando una experiencia visual y funcional sin importar si estás en un móvil, tablet o computadora. ¡La misma calidad en todos los tamaños de pantalla!</p>
         </div>
       </div>
     </div>
@@ -137,8 +137,8 @@
                 </svg>
               </div>
               <div class="mt-6 px-4 text-white">
-                <div class="text-2xl text-white">Buy $LA</div>
-                <div class="text-sm text-gray-500"><span class="text-white">$34.28</span> per share</div>
+                <div class="text-2xl text-white">Personalización de la experiencia</div>
+                <div class="text-sm text-gray-500"><span class="text-white"></span></div>
               </div>
               <div class="mt-6 flex-auto rounded-t-2xl bg-white">
               </div>
@@ -162,8 +162,8 @@
             <path d="M7 22c0-4.694 3.5-8 8-8" stroke="url(#:R7r57qfja:-gradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
             <path d="M21 20l.217-5.513a1.431 1.431 0 00-2.85-.226L17.5 21.5l-1.51-1.51a2.107 2.107 0 00-2.98 0 .024.024 0 00-.005.024l3.083 9.25A4 4 0 0019.883 32H25a4 4 0 004-4v-5a3 3 0 00-3-3h-5z" fill="#A3A3A3"></path>
           </svg>
-          <h3 class="mt-6 text-sm font-semibold text-white sm:text-lg">Invest what you want</h3>
-          <p class="mt-2 text-sm text-gray-400">We hide your stock purchases behind thousands of anonymous trading accounts, so suspicious activity can never be traced back to you.</p>
+          <h3 class="mt-6 text-sm font-semibold text-white sm:text-lg">Personalización de la experiencia</h3>
+          <p class="mt-2 text-sm text-gray-400">Disfruta de una experiencia completamente personalizada según tus preferencias e intereses.</p>
         </div>
       </div>
     </div>
@@ -184,7 +184,7 @@
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 hidden md:mt-20 md:block">
     <div class="grid grid-cols-12 items-center gap-8 lg:gap-16 xl:gap-24">
       <div class="relative z-10 order-last col-span-6 space-y-6" role="tablist" aria-orientation="vertical">
-        <div class="observed relative rounded-2xl transition-colors hover:bg-gray-800/30" onclick="changeBackground(this)">
+        <div class="observed relative rounded-2xl transition-colors hover:bg-gray-800/30" onclick="changeToFirstImage(this)">
           <div class="absolute inset-0 bg-gray-800" style="border-radius: 16px; opacity: 1;">
             </div>
             <div class="relative z-10 p-8">
@@ -196,28 +196,27 @@
               <h3 class="mt-6 text-lg font-semibold text-white">
                 <button class="text-left ui-not-focus-visible:outline-none" id="headlessui-tabs-tab-:R19dl7qfja:" role="tab" type="button" aria-selected="true" tabindex="0" data-headlessui-state="selected" data-selected="" aria-controls="headlessui-tabs-panel-:R3all7qfja:">
                   <span class="absolute inset-0 rounded-2xl"></span>
-                  Invite friends for better returns
+                  UI
                 </button>
               </h3>
-              <p class="mt-2 text-sm text-gray-400">For every friend you invite to Pocket, you get insider notifications 5 seconds sooner. And it’s 10 seconds if you invite an insider.</p>
+              <p class="mt-2 text-sm text-gray-400">Disfruta de una interfaz de usuario intuitiva y fácil de usar, diseñada para que puedas acceder rápidamente a todas las funciones sin complicaciones.</p>
             </div>
           </div>
-          <div class="observed relative rounded-2xl transition-colors hover:bg-gray-800/30" onclick="changeBackground(this)">
+          <div class="observed relative rounded-2xl transition-colors hover:bg-gray-800/30" onclick="changeToSecondImage(this)">
             <div class="absolute inset-0 " style="border-radius: 16px; opacity: 1;">
             </div>
             <div class="relative z-10 p-8">
               <svg viewBox="0 0 32 32" aria-hidden="true" class="h-8 w-8">
                 <circle cx="16" cy="16" r="16" fill="#A3A3A3" fill-opacity="0.2"></circle>
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0a4 4 0 00-4 4v24a4 4 0 004 4h14a4 4 0 004-4V4a4 4 0 00-4-4H9zm0 2a2 2 0 00-2 2v24a2 2 0 002 2h14a2 2 0 002-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9z" fill="#A3A3A3"></path>
-                <path d="M9 8a2 2 0 012-2h10a2 2 0 012 2v2a2 2 0 01-2 2H11a2 2 0 01-2-2V8z" fill="#737373"></path>
               </svg>
               <h3 class="mt-6 text-lg font-semibold text-white">
                 <button class="text-left ui-not-focus-visible:outline-none" id="headlessui-tabs-tab-:R1adl7qfja:" role="tab" type="button" aria-selected="false" tabindex="-1" data-headlessui-state="">
                   <span class="absolute inset-0 rounded-2xl"></span>
-                  Notifications on stock dips
+                  Diseño Responsivo
                 </button>
               </h3>
-              <p class="mt-2 text-sm text-gray-400">Get a push notification every time we find out something that’s going to lower the share price on your holdings so you can sell before the information hits the public markets.</p>
+              <p class="mt-2 text-sm text-gray-400">Nuestra plataforma se ajusta automáticamente a cualquier dispositivo, asegurando una experiencia visual y funcional sin importar si estás en un móvil, tablet o computadora. ¡La misma calidad en todos los tamaños de pantalla!</p>
             </div>
           </div>
           <div class="observed relative rounded-2xl transition-colors hover:bg-gray-800/30" onclick="changeBackground(this)">
@@ -239,10 +238,10 @@
               <h3 class="mt-6 text-lg font-semibold text-white">
                 <button class="text-left ui-not-focus-visible:outline-none" id="headlessui-tabs-tab-:R1bdl7qfja:" role="tab" type="button" aria-selected="false" tabindex="-1" data-headlessui-state="">
                   <span class="absolute inset-0 rounded-2xl"></span>
-                  Invest what you want
+                  Personalización de la experiencia
                 </button>
               </h3>
-              <p class="mt-2 text-sm text-gray-400">We hide your stock purchases behind thousands of anonymous trading accounts, so suspicious activity can never be traced back to you.</p>
+              <p class="mt-2 text-sm text-gray-400">Disfruta de una experiencia completamente personalizada según tus preferencias e intereses.</p>
             </div>
           </div>
         </div>
@@ -276,7 +275,7 @@
 
                 <div class="mt-6 flex-auto rounded-t-2xl bg-white" style="opacity: 1; z-index: 1073741824; filter: blur(0px); transform: translateY(0%) scale(1) translateZ(0px);">
                   <div class="px-4 py-6">
-
+                    <img id="dynamic-image" class="h-[304px] mt-12 ml-1 w-[416px]" src="{{ asset('img/ui.png') }}">
                   </div>
                 </div>
               </div>
@@ -344,17 +343,43 @@
 </style>
 
 <script>
-function changeBackground(clickedElement) {
-  const allElements = document.querySelectorAll('.relative.rounded-2xl');
-  
-  allElements.forEach(element => {
-    const bgDiv = element.querySelector('.absolute.inset-0');
-    bgDiv.style.backgroundColor = 'transparent'; // Reset all backgrounds
-  });
+  // Función para cambiar a la primera imagen
+  function changeToFirstImage(clickedElement) {
+    // Cambiar el color de fondo de todos los elementos
+    const allElements = document.querySelectorAll('.relative.rounded-2xl');
+    
+    allElements.forEach(element => {
+      const bgDiv = element.querySelector('.absolute.inset-0');
+      bgDiv.style.backgroundColor = 'transparent'; // Reset all backgrounds
+    });
 
-  const bgDiv = clickedElement.querySelector('.absolute.inset-0');
-  bgDiv.style.backgroundColor = 'rgba(10, 10, 10, 0.767)'; // Change to the first's bg color (gray-800)
-}
+    // Cambiar el color de fondo del elemento clickeado
+    const bgDiv = clickedElement.querySelector('.absolute.inset-0');
+    bgDiv.style.backgroundColor = 'rgba(10, 10, 10, 0.767)'; // Cambiar al color de fondo gris (gray-800)
+
+    // Cambiar la imagen a la primera
+    const image = document.getElementById('dynamic-image');
+    image.src = "{{ asset('img/ui.png') }}"; // Primera imagen
+  }
+
+  // Función para cambiar a la segunda imagen
+  function changeToSecondImage(clickedElement) {
+    // Cambiar el color de fondo de todos los elementos
+    const allElements = document.querySelectorAll('.relative.rounded-2xl');
+    
+    allElements.forEach(element => {
+      const bgDiv = element.querySelector('.absolute.inset-0');
+      bgDiv.style.backgroundColor = 'transparent'; // Reset all backgrounds
+    });
+
+    // Cambiar el color de fondo del elemento clickeado
+    const bgDiv = clickedElement.querySelector('.absolute.inset-0');
+    bgDiv.style.backgroundColor = 'rgba(10, 10, 10, 0.767)'; // Cambiar al color de fondo gris (gray-800)
+
+    // Cambiar la imagen a la segunda
+    const image = document.getElementById('dynamic-image');
+    image.src = "{{ asset('img/servicio2.png') }}"; // Segunda imagen
+  }
 
 
 // Selecciona los botones

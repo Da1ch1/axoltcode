@@ -44,8 +44,8 @@
         <div class="flex flex-col md:flex-row justify-between items-start mt-8">
             <!-- Sección de suscripción -->
             <div class="md:w-3/5 text-start">
-                <h3 class="text-xl font-semibold mb-4 clamp text-sm !font-medium xl:text-base text-grey-600/70">¡Cotiza tu proyecto!</h3>
-                <p class="text-grey-600/70 mb-4">The latest news, articles, and resources, sent to your inbox weekly.</p>
+                <h3 class="text-xl font-semibold mb-4 clamp text-sm !font-medium xl:text-base text-grey-600/70">¿Necesitas un software a medida? </h3>
+                <p class="text-grey-600/70 mb-4">Obtén una cotización sin compromiso. Envíanos los detalles y te daremos una propuesta adaptada a tus necesidades.</p>
                 <form id="subscribe-form" class="flex flex-col justify-left gap-2">
                     <!-- Textarea -->
                     <textarea id="about" name="about" rows="2" 
@@ -124,61 +124,83 @@
     </div>
 </footer>
 <script>
-        // Limpiar el textarea al cargar la página
-        window.addEventListener('load', function () {
-            const aboutField = document.getElementById('about');
-            aboutField.value = '';  // Limpiar el contenido del textarea
-        });
+// Inicializar EmailJS al cargar la página
+document.addEventListener("DOMContentLoaded", function() {
+    emailjs.init("r5hGi2te0xJ9JG2dK"); // Reemplaza con tu Public Key de EmailJS
+});
 
-        // Lógica de validación y envío del formulario
-        document.getElementById('subscribe-form').addEventListener('submit', function (event) {
-            event.preventDefault();
+// Limpiar el textarea al cargar la página
+window.addEventListener('load', function () {
+    const aboutField = document.getElementById('about');
+    aboutField.value = '';  // Limpiar el contenido del textarea
+});
 
-            const aboutField = document.getElementById('about');
-            const emailField = document.getElementById('email-address');
+// Lógica de validación y envío del formulario
+document.getElementById('subscribe-form').addEventListener('submit', function (event) {
+    event.preventDefault();
 
-            // Obtener el valor del área de texto
-            const aboutValue = aboutField.value.trim();
+    const aboutField = document.getElementById('about');
+    const emailField = document.getElementById('email-address');
 
-            // Validación de campos
-            if (aboutValue.length < 10) {
-                showAlert('Por favor completa el área con al menos 10 caracteres.');
-                return;
-            }
+    const aboutValue = aboutField.value.trim();
+    const emailValue = emailField.value.trim();
 
-            if (!emailField.value.trim()) {
-                showAlert('Por favor ingresa un email.');
-                return;
-            }
+    // Validación de campos
+    if (aboutValue.length < 10) {
+        showAlert('Por favor completa el área con al menos 10 caracteres.');
+        return;
+    }
 
-            // Si los campos están completos
-            showAlert('Mensaje enviado!');
+    if (!emailValue) {
+        showAlert('Por favor ingresa un email.');
+        return;
+    }
+
+    // Enviar el correo con EmailJS
+    const templateParams = {
+        to_email: "axoltcode@gmail.com",
+        from_email: emailValue,
+        message: aboutValue,
+    };
+
+    emailjs.send("service_axoltcode", "template_zwk4ekc", templateParams)
+        .then(response => {
+            console.log("Correo enviado con éxito:", response);
+            showAlert("Mensaje enviado con éxito.");
             aboutField.value = '';  // Limpiar campo "About"
             emailField.value = '';  // Limpiar campo "Email"
+        })
+        .catch(error => {
+            console.error("Error al enviar el correo:", error);
+            showAlert("Hubo un problema al enviar el correo.");
         });
+});
 
-        // Mostrar alerta
-        function showAlert(message) {
-            const alertDiv = document.getElementById('alert');
-            const alertMessage = document.getElementById('alert-message');
+// Mostrar alerta
+function showAlert(message) {
+    const alertDiv = document.getElementById('alert');
+    const alertMessage = document.getElementById('alert-message');
 
-            alertMessage.textContent = message;
-            alertDiv.classList.remove('hidden');
+    alertMessage.textContent = message;
+    alertDiv.classList.remove('hidden');
 
-            // Cerrar la alerta después de 3 segundos
-            setTimeout(() => {
-                alertDiv.classList.add('hidden');
-            }, 3000);
-        }
+    // Cerrar la alerta después de 3 segundos
+    setTimeout(() => {
+        alertDiv.classList.add('hidden');
+    }, 3000);
+}
 
-        // Detectar cuando el usuario deja de escribir en el textarea o input y restablecer el zoom
-        document.getElementById('about').addEventListener('blur', resetZoom);
-        document.getElementById('email-address').addEventListener('blur', resetZoom);
+// Detectar cuando el usuario deja de escribir en el textarea o input y restablecer el zoom
+document.getElementById('about').addEventListener('blur', resetZoom);
+document.getElementById('email-address').addEventListener('blur', resetZoom);
 
-        function resetZoom() {
-            // Restablecer el zoom para dispositivos móviles
-            if (window.innerWidth <= 768) {
-                document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no');
-            }
-        }
+function resetZoom() {
+    // Restablecer el zoom para dispositivos móviles
+    if (window.innerWidth <= 768) {
+        document.querySelector('meta[name="viewport']")
+            .setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no');
+    }
+}
+
 </script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>

@@ -43,7 +43,7 @@
         <div class="px-4  min-w-full min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 ">
             <div>
                 <a href="/">
-                    <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
+                    <x-application-logo class="w-60 h-20" />
                 </a>
             </div>
 

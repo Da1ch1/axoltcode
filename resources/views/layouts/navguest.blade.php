@@ -2,7 +2,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
 <nav>
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-      <div class="relative flex items-center justify-between" style="background-image: repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 2px, transparent 2px, transparent 9px); position: relative; height: 14px;">
+      <div class="relative flex items-center justify-between" style="background-image: repeating-linear-gradient(-45deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 2px, transparent 2px, transparent 9px); position: relative; height: 14px;">
         
         <!-- Contenedor principal (logo y menú) -->
         <div class="flex flex-col sm:flex-row items-center justify-center sm:justify-between">

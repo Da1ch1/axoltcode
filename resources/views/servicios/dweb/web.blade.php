@@ -105,30 +105,31 @@
                 <div class="sm:pt-2 md:pr-6 lg:relative lg:ml-auto lg:w-[19.5rem] lg:flex-none lg:pr-0 lg:pl-8">
                     <div class="flex items-center gap-2">
                         <h2 class="text-base text-white font-semibold ">
-                            <a href="https://tailwindui.com/templates/catalyst">
+                            <a href="">
                                 <span class="absolute  inset-0 lg:left-8">
-                                </span>Lorem App
+                                </span>Landing page
                             </a>
                         </h2>
                     </div>
-                            <p class="text-sm/6 text-grey-600/70 ">Application Movil UI</p>
-                            <p class="mt-3 text-sm/6 text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p class="text-sm/6 text-grey-600/70 ">UI designe</p>
+                            <p class="mt-3 text-sm/6 text-slate-600">Impulsa tu negocio con software a la medida. Diseñamos soluciones digitales eficientes, intuitivas y escalables para llevar tu empresa al siguiente nivel.</p>
                             <div class="mt-4 h-px w-6 bg-slate-300">
                             </div>
                                 <p class="mt-4 text-sm/6 text-slate-600">
                                     <strong class="font-semibold text-white">
-                                        <span>200</span>&nbsp;US$</strong> or included with all-access</p>
+                                        <span>$5,000</span>&nbsp;MXN</strong></p>
                 </div>
                                     <div class="lg:relative lg:mr-auto lg:flex lg:min-w-0 lg:overflow-x-auto">
                                         <div class="sticky left-0 z-10 hidden w-8 flex-none bg-linear-to-r from-white lg:block">
                                         </div>
                                             <div class="lg:relative lg:flex lg:flex-none lg:items-start lg:pr-8">
-                                                <a tabindex="-1" class="hidden lg:absolute lg:inset-y-0 lg:right-8 lg:-left-8 lg:z-10 lg:block" href="https://tailwindui.com/templates/catalyst">
-                                                    <span class="sr-only text-white">View Catalyst template</span>
+                                                <a tabindex="-1" class="hidden lg:absolute lg:inset-y-0 lg:right-8 lg:-left-8 lg:z-10 lg:block" href="">
+                                                    <span class="sr-only text-white">Ver</span>
                                                 </a>
-                                                <img src="https://tailwindui.com/plus/img/templates/catalyst/preview-01.png" alt="This is a preview image" width="560" height="380" class="w-full rounded-xl bg-slate-100 lg:w-[19.1666666rem] lg:flex-none">
-                                                <img src="https://tailwindui.com/plus/img/templates/catalyst/preview-02.png" alt="This is a preview image" width="560" height="380" class="w-full rounded-xl bg-slate-100 lg:w-[19.1666666rem] lg:flex-none lg:ml-8 hidden lg:block">
-                                                <img src="https://tailwindui.com/plus/img/templates/catalyst/preview-03.png" alt="This is a preview image" width="560" height="380" class="w-full rounded-xl bg-slate-100 lg:w-[19.1666666rem] lg:flex-none lg:ml-8 hidden lg:block">
+                                                <img src="{{asset('img/land.jpg')}}" alt="This is a preview image" width="560" height="260" class="w-full h-[200px] rounded-xl bg-slate-100 lg:w-[19.1666666rem] lg:flex-none">
+                                                <img src="{{asset('img/land2.jpg')}}" alt="This is a preview image" width="560" height="200" class="w-full h-[200px] rounded-xl bg-slate-100 lg:w-[19.1666666rem] lg:flex-none lg:ml-8 hidden lg:block">
+                                                <img src="{{asset('img/land3.jpg')}}" alt="This is a preview image" width="560" height="200" class="w-full h-[200px] rounded-xl bg-slate-100 lg:w-[19.1666666rem] lg:flex-none lg:ml-8 hidden lg:block">
+
                                             </div>
                                     </div>
             </div>

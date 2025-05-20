@@ -78,7 +78,7 @@
         @endforeach
       </div>
     @endforeach
-      <div class="space-y-4">
+ <!--     <div class="space-y-4">
         <div class="panel relative transition-colors duration-300 py-4 rounded-xl flex-shrink-0 px-4" style="width: 240px;">
           <p class="clamp text-sm !font-medium xl:text-base" title="Jeffrey has been teaching and inspiring me for at least 7 years now. He is one of the main reasons I chose Laravel and Vue. He has an incredibly effective method of teaching and explains complex concepts in a concise and easily accessible way. It's not an exaggeration to say I wouldn't be where I am without him. " style="-webkit-line-clamp: 8;">Jeffrey has been teaching and inspiring me for at least 7 years now. He is one of the main reasons I chose Laravel and Vue. He has an incredibly effective method of teaching and explains complex concepts in a concise and easily accessible way. It's not an exaggeration to say I wouldn't be where I am without him. </p>
           <div class="flex items-end justify-between">
@@ -158,7 +158,7 @@
               </div>
             </div>
           </div>
-    </div>
+    </div>-->
 </div>
 <div class="px-4 mt-10 mb-5 min-w-full">
   @if (Auth::check() && !$userTestimonial)
