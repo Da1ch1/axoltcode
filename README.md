@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://axoltcode.mx/img/logoaxolcode.png" alt="AxoltCode Logo" width="300">
+<img src="public/img/logoaxolcode.png" alt="AxoltCode Logo" width="300">
 </p>
 
 <h1 align="center">AxoltCode</h1>
